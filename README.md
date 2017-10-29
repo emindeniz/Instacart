@@ -12,15 +12,17 @@ The dataset for this competition is a relational set of files describing custome
 File descriptions
 Each entity (customer, product, order, aisle, etc.) has an associated unique id. Most of the files and variable names should be self-explanatory.
 
-```
+
 aisles.csv
+```
  aisle_id,aisle  
  1,prepared soups salads  
  2,specialty cheeses  
  3,energy granola bars  
  ...
- 
+```
 departments.csv
+```
  department_id,department  
  1,frozen  
  2,other  
