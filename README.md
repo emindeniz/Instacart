@@ -1,11 +1,11 @@
 # Instacart-Kaggle-Competition
 
-How to use:
+### How to use:
 
 These are the scripts I used during Instacart Market Basket Analysis Kaggle competition. `Doc2vec` scripts are used to create embeddings for users and products using gensim library. However, I have already included the results of these script as `product2vec.model` and `user2vec.model`files.Then, `Instacart_Competition_Main_Script.ipynb` is run used to generate all the other features and create a probabilities files to be submitted to the competition.Example submission file `test_submit.csv` is included.
 
 
-Summary of the competition from the website:
+### Summary of the competition from the website:
 
 Whether you shop from meticulously planned grocery lists or let whimsy guide your grazing, our unique food rituals define who we are. Instacart, a grocery ordering and delivery app, aims to make it easy to fill your refrigerator and pantry with your personal favorites and staples when you need them. After selecting products through the Instacart app, personal shoppers review your order and do the in-store shopping and delivery for you.
 
@@ -16,13 +16,13 @@ In this competition, Instacart is challenging the Kaggle community to use this a
 
 https://www.kaggle.com/c/instacart-market-basket-analysis
 
-My performance:
+### My performance:
 
 Overall, I finished 97th and won a silver medal.
 
 https://www.kaggle.com/emindeniz
 
-Data Description
+### Data Description
 
 The dataset for this competition is a relational set of files describing customers' orders over time. The goal of the competition is to predict which products will be in a user's next order. The dataset is anonymized and contains a sample of over 3 million grocery orders from more than 200,000 Instacart users. For each user, we provide between 4 and 100 of their orders, with the sequence of products purchased in each order. We also provide the week and hour of day the order was placed, and a relative measure of time between orders. For more information, see the blog post accompanying its public release.
 File descriptions
