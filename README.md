@@ -18,6 +18,7 @@ aisles.csv
  2,specialty cheeses  
  3,energy granola bars  
  ...
+ 
 departments.csv
  department_id,department  
  1,frozen  
@@ -53,6 +54,7 @@ product_id,product_name,aisle_id,department_id
 
 sample_submission.csv
 order_id,products
+
 17,39276  
 34,39276  
 137,39276  
