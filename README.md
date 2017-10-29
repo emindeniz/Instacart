@@ -44,11 +44,12 @@ This file tells to which set (prior, train, test) an order belongs. You are pred
  ...
 
 products.csv
- product_id,product_name,aisle_id,department_id
- 1,Chocolate Sandwich Cookies,61,19  
- 2,All-Seasons Salt,104,13  
- 3,Robust Golden Unsweetened Oolong Tea,94,7  
- ...
+product_id,product_name,aisle_id,department_id
+
+1,Chocolate Sandwich Cookies,61,19  
+2,All-Seasons Salt,104,13  
+3,Robust Golden Unsweetened Oolong Tea,94,7  
+...
 
 sample_submission.csv
 order_id,products
