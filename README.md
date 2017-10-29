@@ -1,8 +1,18 @@
 # Instacart-Kaggle-Competition
 
-These are the scripts I used during Instacart Market Basket Analysis Kaggle competition. `user2vec.ipynb` and `product2vec.ipynb` scripts are used to create embeddings for users and products using gensim library. Then, `Instacart_Competition_Main_Script.ipynb` run used to generate all the other features and create predictions.
+How to use:
+
+These are the scripts I used during Instacart Market Basket Analysis Kaggle competition. `Doc2vec` scripts are used to create embeddings for users and products using gensim library. However, I have already included the results of these script as `product2vec.model` and `user2vec.model`files.Then, `Instacart_Competition_Main_Script.ipynb` run used to generate all the other features and create a probabilities files to be submitted to the competition.Example submission file `test_submit.csv` is included.
+
 
 Summary of the competition from the website:
+
+Whether you shop from meticulously planned grocery lists or let whimsy guide your grazing, our unique food rituals define who we are. Instacart, a grocery ordering and delivery app, aims to make it easy to fill your refrigerator and pantry with your personal favorites and staples when you need them. After selecting products through the Instacart app, personal shoppers review your order and do the in-store shopping and delivery for you.
+
+Instacart’s data science team plays a big part in providing this delightful shopping experience. Currently they use transactional data to develop models that predict which products a user will buy again, try for the first time, or add to their cart next during a session. Recently, Instacart open sourced this data - see their blog post on 3 Million Instacart Orders, Open Sourced.
+
+In this competition, Instacart is challenging the Kaggle community to use this anonymized data on customer orders over time to predict which previously purchased products will be in a user’s next order.
+
 
 https://www.kaggle.com/c/instacart-market-basket-analysis
 
@@ -66,3 +76,6 @@ order_id,products
 137,39276  
 ...
 ```
+My performance:
+
+https://www.kaggle.com/emindeniz
