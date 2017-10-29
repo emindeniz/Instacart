@@ -2,7 +2,7 @@
 
 How to use:
 
-These are the scripts I used during Instacart Market Basket Analysis Kaggle competition. `Doc2vec` scripts are used to create embeddings for users and products using gensim library. However, I have already included the results of these script as `product2vec.model` and `user2vec.model`files.Then, `Instacart_Competition_Main_Script.ipynb` run used to generate all the other features and create a probabilities files to be submitted to the competition.Example submission file `test_submit.csv` is included.
+These are the scripts I used during Instacart Market Basket Analysis Kaggle competition. `Doc2vec` scripts are used to create embeddings for users and products using gensim library. However, I have already included the results of these script as `product2vec.model` and `user2vec.model`files.Then, `Instacart_Competition_Main_Script.ipynb` is run used to generate all the other features and create a probabilities files to be submitted to the competition.Example submission file `test_submit.csv` is included.
 
 
 Summary of the competition from the website:
