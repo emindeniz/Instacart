@@ -73,7 +73,7 @@ product_id,product_name,aisle_id,department_id
 3,Robust Golden Unsweetened Oolong Tea,94,7  
 ...
 ```
-sample_submission.csv
+sample_submission.csv:
 
 ```
 order_id,products
@@ -82,4 +82,5 @@ order_id,products
 137,39276  
 ...
 ```
+
 
